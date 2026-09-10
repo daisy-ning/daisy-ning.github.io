@@ -11,10 +11,10 @@ profile:
   more_info: >
     <p>Clemson University</p>
     <p>Clemson, South Carolina</p>
-    <p>yning2@clemson.edu</p>
+    <p><a href="mailto:yning2@clemson.edu">yning2@clemson.edu</a></p>
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -23,19 +23,19 @@ latest_posts:
   enabled: false
 ---
 
-I develop **physics-based and data-informed approaches to understand, characterize, and monitor subsurface systems**. My research integrates **multiphysics modeling**, **distributed fiber-optic sensing**, and **data-driven methods** to study coupled processes in porous and fractured geological media.
+I develop **physics-based and data-informed methods to understand, monitor, and predict subsurface systems**. My research combines **multiphysics modeling**, **distributed fiber-optic sensing (DAS/DSS/DTS)**, and **data–model integration**, with applications in geothermal energy, geological carbon storage, underground hydrogen storage, and critical-mineral development.
 
 ## Research
 
 ### Multiphysics modeling
-Coupled fluid flow, geomechanics, heat transfer, and related processes in porous and fractured subsurface systems.
+Coupled fluid flow, geomechanics, heat transfer, and related processes in porous and fractured geological media.
 
 ### Distributed fiber-optic sensing
-DAS, DSS, and DTS for monitoring subsurface deformation, fracture behavior, fluid movement, and reservoir response.
+DAS, DSS, and DTS for observing subsurface deformation, fracture behavior, fluid movement, and reservoir response.
 
 ### Data–model integration
-Physics-informed machine learning, inversion, and data assimilation for subsurface characterization and predictive modeling.
+Inverse modeling, data assimilation, and physics-informed machine learning for subsurface characterization and predictive modeling.
 
-**Applications:** Geothermal energy · Geological carbon storage · Hydrogen storage · Critical minerals
+**Applications:** Geothermal energy · Geological carbon storage · Underground hydrogen storage · Critical minerals
 
-[Research](/projects/) · [Publications](/publications/) · [Teaching](/teaching/) · [CV](/cv/)
+**Explore:** [Research](/projects/) · [Publications](/publications/)
