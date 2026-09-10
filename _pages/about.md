@@ -2,33 +2,40 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Assistant Professor · Environmental Engineering & Earth Sciences · Clemson University
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Clemson University</p>
+    <p>Clemson, South Carolina</p>
+    <p>yning2@clemson.edu</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I develop **physics-based and data-informed approaches to understand, characterize, and monitor subsurface systems**. My research integrates **multiphysics modeling**, **distributed fiber-optic sensing**, and **data-driven methods** to study coupled processes in porous and fractured geological media.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## Research
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Multiphysics modeling
+Coupled fluid flow, geomechanics, heat transfer, and related processes in porous and fractured subsurface systems.
+
+### Distributed fiber-optic sensing
+DAS, DSS, and DTS for monitoring subsurface deformation, fracture behavior, fluid movement, and reservoir response.
+
+### Data–model integration
+Physics-informed machine learning, inversion, and data assimilation for subsurface characterization and predictive modeling.
+
+**Applications:** Geothermal energy · Geological carbon storage · Hydrogen storage · Critical minerals
+
+[Research](/projects/) · [Publications](/publications/) · [Teaching](/teaching/) · [CV](/cv/)
