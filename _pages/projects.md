@@ -1,65 +1,41 @@
 ---
 layout: page
-title: projects
+title: Research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research in subsurface multiphysics, distributed fiber-optic sensing, and data-model integration.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 2
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+My research focuses on understanding and monitoring **coupled processes in porous and fractured subsurface systems**. I combine physics-based modeling, distributed sensing, and data-driven methods to improve subsurface characterization and prediction for geoenergy and environmental applications.
 
-{% else %}
+## Multiphysics modeling
 
-<!-- Display projects without categories -->
+I develop computational models for coupled processes including **fluid flow, geomechanics, heat transfer, and reactive transport**. A central interest is how fractures and porous media evolve under changing pressure, stress, temperature, and fluid conditions.
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+Current topics include:
+- hydro-mechanical and thermo-hydro-mechanical behavior of fractured reservoirs;
+- fracture transmissivity, deformation, and flow-path evolution;
+- instability and feedback mechanisms in coupled subsurface processes;
+- long-term reservoir performance under injection and circulation.
 
-  <!-- Generate cards for each project -->
+## Distributed fiber-optic sensing
 
-{% if page.horizontal %}
+I use **distributed acoustic sensing (DAS), distributed strain sensing (DSS), and distributed temperature sensing (DTS)** to observe subsurface processes at high spatial and temporal resolution.
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+My work is particularly interested in connecting fiber-optic measurements to physical mechanisms such as pressure diffusion, poroelastic deformation, fracture opening and slip, fluid movement, and thermal effects.
+
+## Data–model integration
+
+A major goal of my research is to turn monitoring data into quantitative understanding of the subsurface. I develop approaches that combine observations with numerical models through **inverse modeling, data assimilation, and physics-informed machine learning**.
+
+Key questions include:
+- What subsurface properties can actually be inferred from available measurements?
+- How much monitoring information is needed to constrain a model?
+- How can short-term observations improve prediction of long-term reservoir behavior?
+
+## Applications
+
+These methods are applied across subsurface energy and environmental systems, including **enhanced geothermal systems, geological carbon storage, underground hydrogen storage, and critical-mineral development**.
+
+For related work, see my [publications](/publications/).
