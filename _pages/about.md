@@ -48,4 +48,4 @@ Inverse modeling, data assimilation, and physics-informed machine learning for s
 
 **Applications:** Geothermal energy · Geological carbon storage · Underground hydrogen storage · Critical minerals
 
-**Explore:** [Research](/projects/) · [Publications](/publications/)
+**Explore:** [Research](/projects/) · [Publications](/publications/) · [CV](/cv/)
