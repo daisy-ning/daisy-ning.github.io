@@ -23,6 +23,16 @@ latest_posts:
   enabled: false
 ---
 
+<style>
+.post-title {
+  font-weight: 700 !important;
+}
+
+.post-title > .font-weight-bold {
+  font-weight: 300 !important;
+}
+</style>
+
 I develop **physics-based and data-informed methods to understand, monitor, and predict subsurface systems**. My research combines **multiphysics modeling**, **distributed fiber-optic sensing (DAS/DSS/DTS)**, and **data–model integration**, with applications in geothermal energy, geological carbon storage, underground hydrogen storage, and critical-mineral development.
 
 ## Research
